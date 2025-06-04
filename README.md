@@ -40,36 +40,7 @@ credit-card-fraud-detection/
 
 4. Deployment:
    - A Streamlit app was built for end users to predict fraud in real time
-
-
- 📊 Dataset
-
-- Name: Credit Card Fraud Detection Dataset
-- Source: [Kaggle Link](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- Rows: 284,807
-- Features: 30 (V1 to V28, Amount, Time) + Class (Target)
-- Class Imbalance: Only ~0.17% transactions are fraud
-
----
-
- ⚙️ Workflow
-
-1. Preprocessing:
-   - Feature selection
-   - Normalization
-   - Handled class imbalance with SMOTE
-
-2. Modeling:
-   - Trained Logistic Regression & Random Forest
-   - Best model selected based on F1-score and ROC AUC
-
-3. Evaluation:
-   - Accuracy: 95%
-   - F1-score: 0.95
-   - ROC AUC Score: 0.9911
-
-4. Deployment:
-   - A Streamlit app was built for end users to predict fraud in real time
+   
 
  🚀 Getting Started
 
